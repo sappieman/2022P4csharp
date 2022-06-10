@@ -8,6 +8,7 @@ namespace classes_en_functions
 {
     class Skill
     {
+        Elements element;
         int damage = 200;
         int energycost = 24;
         string name = "mewtwo";

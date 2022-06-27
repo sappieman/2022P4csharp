@@ -9,8 +9,8 @@ namespace classes_en_functions
     class Skill
     {
         Elements element;
-        int damage = 200;
-        int energycost = 24;
+        internal int damage;
+        internal int energycost;
         string name = "mewtwo";
 
         internal Skill()
